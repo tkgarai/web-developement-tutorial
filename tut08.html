@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This is HTML form tutorial</h1>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="roll">Roll:</label>
+        <div>
+            <input type="text", name="myRole" id="roll">
+        </div>
+        <br>
+        <label for="email">Email:</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="dob">DOB:</label>
+        <div>
+            <input type="date" name="DOB" id="dob">
+        </div>
+        <br>
+        <label for="adult">Are you 18 years old? </label>
+        <div>
+            <input type="checkbox" name="Age" id="adult" checked>
+        </div>
+        <br>
+        <label for="gender">Gender:</label>
+        <div>
+            Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Transgender <input type="radio" name="myGender" id=""> 
+        </div>
+        <br>
+        <label for="stipend">Stipend:</label>
+        <div>
+            <input type="number" name="stipend" id="stipend">
+        </div>
+        <br>
+        <label for="description">Description: </label>
+        <div>
+            <textarea name="Description" id="description" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="laptop">Laptop: </label>
+            <select name="myLaptop" id="laptop">
+                <option value="dell">Dell</option>
+                <option value="hp">HP</option>
+                <option value="len">Lenovo</option>
+                <option value="acer">Acer</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body> 
+</html>
